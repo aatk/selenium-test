@@ -1,0 +1,20 @@
+{
+  "name": "selenium.test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --detectOpenHandles"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.3.1",
+    "selenium-webdriver": "^4.1.0",
+    "webdriver": "^7.16.9"
+  },
+  "devDependencies": {
+    "chromedriver": "^96.0.0"
+  }
+}
